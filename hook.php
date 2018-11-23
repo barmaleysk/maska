@@ -14,8 +14,8 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 require_once __DIR__ . '/vendor/autoload.php';
 
 // Add you bot's API key and name
-$bot_api_key  = 'example:key';
-$bot_username = 'ecofood_tmn_bot';
+$bot_api_key  = '791752625:AAEEyrA9ZI68YXyCKJNZallaCOMuHo8vZi0';
+$bot_username = 'tstsatbot';
 
 // Define all IDs of admin users in this array (leave as empty array if not used)
 $admin_users = [
@@ -23,8 +23,8 @@ $admin_users = [
 
 $config = [
 	'admin_group' => -123456789,
-	'base_url' => 'http://example.com/',
-	'download_path' => 'Download/'
+	'base_url' => 'https://chat-parudel.7e14.starter-us-west-2.openshiftapps.com/',
+	'download_path' => '/'
 ];
 
 // Define all paths for your custom commands in this array (leave as empty array if not used)
